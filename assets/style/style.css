@@ -1,0 +1,415 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.div1 {
+    display: inline-block;
+    margin-right: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.div2 a {
+    margin-left: 50px;
+}
+
+.div2 {
+    display: inline-block;
+    /* position: fixed; */
+}
+
+.parag-head {
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+
+.img1 {
+    width: 550;
+    height: 611px;
+    float: right;
+    position: relative;
+    top: -80px;
+}
+
+h1 {
+    font-family: serif;
+
+}
+
+
+
+.text-img .artiste {
+    /* text-align: center; */
+    font-size: 250px;
+    /* display: inline; */
+    font-family: 'Playfair Display';
+    position: absolute;
+    font-weight: normal;
+    left: 300px;
+    bottom: 80px;
+}
+
+.text-img .time {
+    position: absolute;
+    font-size: 250px;
+    font-weight: normal;
+    font-family: 'Playfair Display';
+    bottom: -150px;
+    left: 450px;
+    top: 200px;
+}
+
+.text-img img {
+    width: 550px;
+    height: 611px;
+    margin-top: 150px;
+    margin-left: -10px;
+
+}
+
+/* Portfolio Section  */
+.portfolio-title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: normal;
+    font-family: 'Playfair Display';
+    margin-bottom: 100px;
+}
+
+
+/* End Portfolio Section  */
+
+
+
+/* About Section  */
+
+.about-section p {
+    width: 25%;
+    height: 500px;
+    margin-left: 200px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.about-section img {
+    width: 590px;
+    height: 700px;
+    float: right;
+    position: relative;
+    bottom: 530px;
+    margin-right: 200px;
+}
+
+/*End About Section*/
+
+
+/*Conatact Section*/
+
+
+form input,
+textarea {
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 500px;
+    height: 30px;
+    /* border: solid 5px red; */
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 0px 0px 2px;
+
+}
+
+.contact-section .submit {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 40px;
+    position: relative;
+    right: 200px;
+
+}
+
+.testimonials .buttons {
+    width: 230px;
+    top: 100px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    border: 2px white solid;
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    margin-left: 32%;
+}
+
+
+form input[type="submit"] {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+form #message {
+    height: 100px;
+}
+
+form label {
+    margin: 33.6%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.buttons {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Inter';
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    top: -90px;
+    left: 100px;
+}
+
+.buttons:hover {
+    color: antiquewhite;
+    background-color: black;
+}
+
+.abt img {
+    width: 40%;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+.abt p {
+    width: 40%;
+    height: 500px;
+    margin-left: 200px;
+    font-size: 35px;
+    font-weight: 400;
+    /* line-height: 48px; */
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+/*Testimonials*/
+
+.testimonials {
+    margin: 190px;
+    /* background-color: rgb(85, 79, 79); */
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-family: serif;
+    font-size: 50px;
+}
+
+.testimonials p {
+    text-align: center;
+    margin: 0px 30px;
+    opacity: 0.8;
+}
+
+.testimonials .all-review {
+    margin-top: 120px;
+}
+
+.testimonials .all-review p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.testimonials .all-review a {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.all-review {
+    display: flex;
+}
+
+.all-review h3 {
+    font-size: 44px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.first-review {
+    background-color: #181818;
+    display: flex;
+    /* height: 70%; */
+
+}
+
+.second-review {
+    background-color: #181818;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.all-review span {
+    font-size: 25px;
+}
+
+
+.third-review {
+    background-color: #181818;
+    width: 309px;
+}
+
+.third-review div {
+    margin-bottom: 30px;
+}
+
+.left-two-review {
+    margin-right: 100px;
+    position: relative;
+}
+
+.testimonials img {
+    width: 309px;
+}
+
+
+
+.testimonials button {
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+    position: relative;
+    left: 45%;
+    border: solid white 1.5px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.testimonials button:hover {
+    color: wheat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Testimonials*/
+
+/*footer*/
+
+footer {
+    margin-bottom: 60px;
+    margin-top: 200px;
+}
+
+
+
+footer h4 {
+    text-align: center;
+}
+
+footer div {
+    text-align: center;
+    margin-left: 44px;
+}
+
+
+
+
+.privacy,
+.terms {
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.port-test img {
+    width: 577px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.port-test div {
+    margin-left: 110px;
+}
+
+.port-test .div-left {
+    position: relative;
+    left: 28px;
+}
+
+.port-test .div-right {
+    position: relative;
+    right: 28px;
+}
+
+.port-test {
+    display: flex;
+}
+
+.port-test .imgg1 {
+    height: 1066px;
+}
+
+.port-test .imgg4 {
+    height: 818px;
+}
+
+.port-test .imgg5 {
+    height: 740px;
+}
+
+.port-test .imgg8 {
+    height: 624px;
+}
+
+.port-test .imgg3 {
+    height: 1389px;
+}
+
+.port-test .imgg2 {
+    height: 605px;
+}
